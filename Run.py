@@ -51,7 +51,7 @@ while True:
 
     # display the information
     font = cv2.FONT_HERSHEY_SIMPLEX
-    cv2.putText(frame, "Your Move: " + user_move_name,
+    cv2.putText(frame, "Your name: " + user_move_name,
                 (50, 50), font, 1.2, (255, 255, 255), 2, cv2.LINE_AA)
 
     if user_move_name == "Prajwal":
